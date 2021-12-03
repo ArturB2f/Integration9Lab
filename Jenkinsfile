@@ -8,8 +8,8 @@ pipeline {
       environment {
          PATH="/usr/local/bin:$PATH"
          JAR_FILE_NAME="excursion-0.0.1-SNAPSHOT.jar"
-         GIT_USER_NAME="jenkins"
-         GIT_USER_EMAIL="jenkins@com.ua"
+         GIT_USER_NAME="ArturB2f"
+         GIT_USER_EMAIL="valentinrarara.002@gmail.com"
          AWS_DEFAULT_REGION="us-east-1"
          BEANSTALK_APPLICATION_NAME="BabiyApplication"
          BEANSTALK_ENVIRONMENT_NAME="Babiyapplication-env"
