@@ -40,7 +40,7 @@ pipeline {
                                  git config --global user.email $GIT_USER_EMAIL
                                  git init
                                  git add .
-                                 git commit -m "first commit"
+                                 git commit -m "second commit"
                                  echo n | eb init $BEANSTALK_APPLICATION_NAME --region $AWS_DEFAULT_REGION
                                  eb deploy $BEANSTALK_ENVIRONMENT_NAME -v
                                  '''
